@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- AGREGADO DE BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- AGREGADO DE BOOTSTRAP ICONOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- AGREGADO DE FUENTES  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AGREGADO DE LINK A CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- AGREGADO DE ICONO A VENTANA NAVEGADOR -->
+    <link
+      rel="shortcut icon"
+      href="./img/icono_transparente.png"
+      type="gaming_png"
+    />
+
+    <!-- META SEO -->
+
+    <meta name="description" content="Explora el paraíso gamer en Play Paradise: Consolas y videojuegos de alta calidad para los verdaderos fanáticos. ¡Únete a la diversión hoy!">
+    <meta name="keywords" content="videojuegos, consolas, gamer, microsoft, playstation, nintendo">
+    <meta name="author" content="José Villagra" />
+    <meta name="copyright" content="copywright 2023" />
+    
+    <title>Play Paradise - De todo para los gamers, juegos y consolas </title>
+  </head>
+
+  <!-- APERTURA HEADER -->
+  <body class="container-fluid">
+    <header class="navbar navbar-expand-lg fondoNavBar">
+      <div class="container-fluid">
+        <a class="navBar-brand" href="#">
+          <img
+            class="logoNav"
+            src="./img/Logo_sin_fondo.png"
+            alt="Logo joystick gamer"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fuentesNav ms-auto">
+            <li class="nav-item">
+              <a class="menu nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="menu nav-link" href="./html/juegos.html">Juegos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="menu nav-link" href="./html/consolas.html">Consolas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="menu nav-link" href="./html/ubicacion.html"
+                >Ubicación</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="menu nav-link" href="./html/inicio.html"
+                >Iniciar sesión</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- CIERRE HEADER -->
+    <main>
+
+      <!-- APERTURA CARRUSEL  -->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/baner1.webp" class="d-block w-100" alt="Imagen promocional sobre el juego Diablo" />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="./img/baner2.webp"
+              class="d-block w-100"
+              alt="Imagen promocional sobre el juego Final Fantasy"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/baner3.webp"
+              class="d-block w-100"
+              alt="Imagen promocional sobre el juego Street Fighter"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/baner4.webp" class="d-block w-100" alt="Imagen promocional sobre el juego Zelda" />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/baner5.webp" class="d-block w-100" alt="Imagen promocional sobre el juego Pokémon" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+       <!-- CIERRE CARRUSEL  -->
+
+       <!-- APERTURA BLOQUE INFO -->
+
+      <section class="seccion1">
+        <h1 class="tituloIndex">Encuentra tu próximo paraíso</h1>
+
+        <form class="buscador">
+          <input type="search" placeholder="Buscar" />
+        </form>
+      </section>
+
+      <section class="seccion2">
+        <h2 class="tituloParrafo">Somos Play Paradise</h2>
+        <p class="textoParrafoIndex">
+          La tierra sagrada para todos los jugadores apasionados. ¿Estás listo
+          para embarcarte en una épica aventura de diversión y entretenimiento
+          sin límites? ¡Prepárate para una experiencia gamer que te volará la
+          mente y te hará gritar de emoción! <br /><br />
+          En Play Paradise, hemos reunido el paraíso definitivo para todos los
+          amantes de los videojuegos y las consolas de PlayStation, Microsoft y
+          Nintendo. ¡Aquí encontrarás lo que buscas para satisfacer tu sed de
+          diversión digital! <br /><br />
+          Únete a la familia de Play Paradise y déjanos ser tu destino favorito
+          para toda tu diversión virtual. Te prometemos que no te arrepentirás
+          de elegirnos como tu compañero gamer de confianza. <br /><br />
+          
+          
+          <p class="textoAnimado rotate"> ¡A jugar se ha dicho!<br />
+          🎮
+        </p>
+      </section>
+
+        <!-- CIERRE BLOQUE INFO -->
+
+      <!--  VIDEO -->
+
+      <section class="seccion3">
+        <div class="ratio ratio-16x9">
+          <iframe
+            src="https://www.youtube.com/embed/cExrEChENfo"
+            title="YouTube video"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+       <!-- LOGO WHATSAPP -->
+
+      <div>
+        <img
+          src="./img/whatsapp-logo.png"
+          class="whatsapp"
+          alt="Logo whatsapp"
+        />
+      </div>
+
+    </main>
+
+    <!-- APERTURA FOOTER -->
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; Todos los derechos reservados </span>
+      </div>
+      
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://www.tiktok.com"><i class="rss bi-tiktok"></i></svg></a></li>
+      <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://instagram.com"><i class="rss bi-instagram"></i></a></li>
+      <li class="ms-3"><a target="_blank" class="text-body-secondary" href="https://www.facebook.com"><i class="rss bi-facebook"></i></a></li>
+      </ul>
+      </footer>
+    </div>
+
+    <!-- CIERRE FOOTER -->
+
+    <!--APERTURA BOOTSRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CIERRE BOOTSTRAP -->
+  </body>
+</html>

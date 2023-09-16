@@ -1,0 +1,164 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PÁGINA INDEX */
+.logoNav {
+  width: 130px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fuentesNav {
+  font-size: 20px;
+}
+
+.menu {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.menu:hover {
+  color: white;
+}
+
+.rss:hover {
+  color: #0468bf;
+}
+
+.fondoNavBar {
+  background-color: #5c4b99;
+}
+
+body {
+  background: url(../img/gaming-pattern.png);
+}
+
+.tituloIndex {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.buscador {
+  text-align: center;
+  margin: 2% 0 10px 0;
+}
+
+.tituloParrafo {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.textoParrafoIndex {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 40px 0 40px;
+}
+
+.textoAnimado {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 30px 0 30px 0;
+}
+
+.rotate:hover {
+  transform: rotateZ(360deg);
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.whatsapp {
+  width: 100px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* JUEGOS */
+
+.tituloJuegos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subtituloJuegos {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card {
+  margin: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+/* .card-img-switch {
+  height: 330px;
+} */
+
+.colorBtn {
+  background-color: #0468bf;
+  color: white;
+  margin: 5px;
+}
+
+.colorBtn:hover {
+  background-color: #05aff2;
+  color: white;
+}
+
+/* CONSOLAS */
+
+.tituloConsolas {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cardConsolaXbox {
+  padding: 50px;
+}
+
+.cardCon {
+  width: 100%;
+}
+
+/* .cardCon {
+  margin-left: 160px;
+} */
+
+/* UBICACIÓN */
+
+.tituloUbicacion {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mapa {
+  margin-top: 30px;
+}
+
+.infoUbicacion {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.infoUbicacion h3 {
+  font-weight: bold;
+}
+
+/* INICIO */
