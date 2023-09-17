@@ -1,0 +1,85 @@
+* {
+  font-family: $mainFont;
+}
+
+body {
+  background: url(../img/gaming-pattern.png);
+}
+
+//PÁGINA INDEX
+
+.fondoNavBar {
+  background-color: $colorNav;
+  .logoNav {
+    width: 130px;
+  }
+  #navbarNav {
+    .fuentesNav {
+      font-size: 20px;
+    }
+    .menu {
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin: 10px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.seccion1 {
+  .tituloIndex {
+    @include titulos;
+    font-weight: bold;
+  }
+}
+
+.buscador {
+  text-align: center;
+  margin: 2% 0 10px 0;
+}
+
+.seccion2 {
+  .tituloParrafo {
+    @include titulos;
+    font-weight: bold;
+  }
+  .textoParrafoIndex {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 40px 0 40px;
+  }
+  .textoAnimado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+  }
+  .rotate {
+    &:hover {
+      transform: rotateZ(360deg);
+      transition: transform 2s;
+      cursor: pointer;
+    }
+  }
+}
+
+.whatsapp {
+  width: 100px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  cursor: pointer;
+}
+
+//FOOTER
+
+.rss {
+  &:hover {
+    color: #0468bf;
+  }
+}

@@ -1,0 +1,11 @@
+.colorBtn {
+  background-color: $colorBoton;
+  color: white;
+  margin: 5px;
+}
+.colorBtn {
+  &:hover {
+    background-color: #05aff2;
+    color: white;
+  }
+}

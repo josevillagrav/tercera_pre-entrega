@@ -1,0 +1,15 @@
+main {
+  .tituloUbicacion {
+    @include titulos;
+  }
+  .mapa {
+    margin-top: 30px;
+  }
+  .infoUbicacion {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .infoUbicacion h3 {
+    font-weight: bold;
+  }
+}

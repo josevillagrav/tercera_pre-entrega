@@ -1,0 +1,11 @@
+main {
+  .tituloConsolas {
+    @include titulos;
+  }
+  .cardConsolaXbox {
+    padding: 50px;
+  }
+  .cardCon {
+    width: 100%;
+  }
+}

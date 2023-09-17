@@ -1,0 +1,27 @@
+main {
+  .tituloJuegos {
+    @include titulos;
+  }
+  .subtituloJuegos {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .card {
+    margin: 1rem;
+    text-align: center;
+  }
+  .card-text {
+    font-weight: bold;
+  }
+  .colorBtn {
+    background-color: $colorBoton;
+    color: white;
+    margin: 5px;
+  }
+  .colorBtn {
+    &:hover {
+      background-color: #05aff2;
+      color: white;
+    }
+  }
+}
